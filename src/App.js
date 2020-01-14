@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
-
+// import Details from 'src/components/details/Details'
 import { Header, MapContainer, Details } from './components'
 
 class App extends Component {
