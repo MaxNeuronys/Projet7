@@ -35,7 +35,7 @@ export class MapContainer extends Component {
           visible={this.state.showingInfoWindow}
           onClose={this.onClose}
         >
-          <div className="comp w-75 border">
+          <div className="comp w-80 border">
             <h4>{this.state.selectedPlace.name}</h4>
           </div>
         </InfoWindow>

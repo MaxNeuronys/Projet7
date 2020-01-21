@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import './Details.css'
 
 export default class Details extends Component {
 
     render(){
-        return <div className="comp w-25 border">Details</div>
+        return <div className=" detail comp border">Details</div>
     }
 
 }
